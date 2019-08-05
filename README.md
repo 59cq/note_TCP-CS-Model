@@ -30,3 +30,7 @@
 |接收请求(read/recv)|发送请求(write/send)|
 |响应请求(write/send)|接收响应(read/recv)|
 |关闭(close)|关闭(close)|
+
+
+## 简单用例
+server.c 和 client.c 是一个简单的使用例子,将server.c上传到VPS编译运行后,编译运行本地client.c即可实现TCP进程通信
